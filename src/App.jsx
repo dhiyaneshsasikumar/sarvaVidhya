@@ -6,6 +6,7 @@ import DigitalMarketing from './pages/servicePage/DigitalMarketing/DigitalMarket
 import WebDevelopment from './pages/servicePage/webDevelopment/webDevelopment';
 import './App.css';
 import Footer from './components/Footer/Footer';
+import Contact from './pages/ContactUs/Contact';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/webDevelopment" element={<WebDevelopment />} />
           <Route path="/digitalMarketing" element={<DigitalMarketing />} />
+          <Route path="/contact" element={<Contact/>} />
         </Routes>
         <Footer />
       </div>
