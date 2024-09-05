@@ -23,7 +23,7 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <h1 className="logo">SARVA VIDHYA</h1>
+            <h1 className="logo"><Link to={"/"}>SARVA VIDHYA</Link></h1>
             <ul className={`nav-links ${isMenuOpen ? 'mobile-menu' : ''}`}>
                 <li>
                     <Link to="/webDevelopment" className={`${location.pathname === '/webDevelopment' ? 'active ' : ''}services-link`} >
