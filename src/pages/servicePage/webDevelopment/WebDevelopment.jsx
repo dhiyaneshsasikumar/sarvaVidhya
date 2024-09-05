@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './webDevelopment.module.css';
 
 const WebDevelopment = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className={styles.mainDiv}>
             <div className={styles.serviceHeader}>

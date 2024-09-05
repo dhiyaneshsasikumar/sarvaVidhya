@@ -6,13 +6,14 @@ import DigitalMarketing from './pages/servicePage/DigitalMarketing/DigitalMarket
 import WebDevelopment from './pages/servicePage/webDevelopment/webDevelopment';
 import './App.css';
 import Footer from './components/Footer/Footer';
+import Nav from './components/Nav/Nav';
 
 function App() {
 
   return (
     <Router>
       <div>
-        <Navbar />
+        <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/webDevelopment" element={<WebDevelopment />} />
