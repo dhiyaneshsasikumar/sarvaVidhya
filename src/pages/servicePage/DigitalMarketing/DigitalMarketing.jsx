@@ -76,15 +76,15 @@ function DigitalMarketing() {
             </p>
             <div className="icon-grid">
               <div className="icon-item">
-                <img src="public\images\linkedin (1).png" alt="Icon 1" />
+                <img src="/images/linkedin (1).png" alt="Icon 1" />
                 <p>9000+ Followers</p>
               </div>
               <div className="icon-item">
-                <img src="public\images\search.png" alt="Icon 2" />
+                <img src="/images/search.png" alt="Icon 2" />
                 <p>Rated 4.6/5 500+ Reviews</p>
               </div>
               <div className="icon-item">
-                <img src="public\images\instagram (1).png" alt="Icon 3" />
+                <img src="/images/instagram (1).png" alt="Icon 3" />
                 <p>10,000+ Followers</p>
               </div>
             </div>
