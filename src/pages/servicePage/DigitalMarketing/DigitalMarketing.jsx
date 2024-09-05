@@ -47,21 +47,22 @@ function DigitalMarketing() {
 
         {/* Section 2 */}
         <section className="services-section">
-          <div className="container1">
-            <h2 className="section-title">Unlock Your Digital Potential</h2>
-            <div className="service-grid">
-              {/* Service Cards */}
-              {[...Array(6)].map((_, index) => (
-                <div className="service-card" key={index}>
-                  <div className="icon-container">
-                    <img src="./images/code.png" alt="" />
-                  </div>
-                  <p className="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-              ))}
-            </div>
+  <div className="container1">
+    <h2 className="section-title">Unlock Your Digital Potential</h2>
+    <div className="service-grid">
+      {/* Service Cards */}
+      {[...Array(6)].map((_, index) => (
+        <div className="service-card" key={index}>
+          <div className="icon-container">
+            <img src="./images/code.png" alt="" />
           </div>
-        </section>
+          <p className="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
 
         {/* Section 3 */}
         <section className="section3Div">
