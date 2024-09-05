@@ -141,57 +141,65 @@ body{
 .services-section {
     padding: 4rem 0;
     background-color: whitesmoke;
-}
-
-.container1 {
+  }
+  
+  .container1 {
     width: 90%;
     margin: 0 auto;
-}
-
-.section-title {
+  }
+  
+  .section-title {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 2rem;
     text-align: center;
-}
-
-.service-grid {
+  }
+  
+  .service-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr); /* Three columns on large screens */
     gap: 2rem;
-}
-
-.service-card {
+  }
+  
+  .service-card {
     background-image: linear-gradient(120deg, #c3daff 0%, #c2e9fb 100%);
     padding: 2rem;
     border-radius: 0.5rem;
     display: flex;
     align-items: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* icon-container {
+  }
+  
+  .icon-container {
     width: 80px; 
     height: 80px;
     margin-right: 1rem;
     overflow: hidden; 
-} */
-
-.icon-container img {
-    width: 80%; /* Make the image take the full width of the container */
-    height: 80%; /* Make the image take the full height of the container */
+  }
+  
+  .icon-container img {
+    width: 100%; /* Make the image take the full width of the container */
+    height: 100%; /* Make the image take the full height of the container */
     object-fit: contain; /* Maintain aspect ratio and fit within the container */
-}
-
-.service-description {
+  }
+  
+  .service-description {
     font-size: 1.25rem;
-}
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .service-grid {
+      grid-template-columns: 1fr; /* Single column layout on mobile */
+    }
+  }
+  
 
 /* ------------------------------------------------------------------------------------------------- */
 
 .DMcontainer .section3Div {
-    /* background-image: url('images/bg.jpg');  */
-    background-image: linear-gradient(120deg, #c3daff 0%, #de6a0b 100%);
+    background-image: url('images/bg.jpg'); 
+   
     background-size: cover;
     background-position: center;
     padding: 4rem 0; /* Padding for the section */
@@ -238,12 +246,11 @@ body{
   
   .icon-item {
     text-align: center; /* Center align text under icons */
-    height: 30px;
   }
   
   .icon-item img {
-    width: 100px; /* Set a fixed size for icons */
-    height: 50px; /* Maintain aspect ratio */
+    width: 80px; /* Set a fixed size for icons */
+    height: 80px; /* Maintain aspect ratio */
     margin-bottom: 0.5rem; /* Space between icon and text */
   }
   
@@ -270,6 +277,7 @@ body{
     justify-content: center; /* Center align items horizontally */
     width: 80%; /* Set a width for the container */
     margin: 0 auto; /* Center the container */
+    gap: 50px;
 }
 
 .emailhead {
@@ -317,7 +325,8 @@ body{
 }
 
 .step-button:hover {
-    background-color: #0056b3; /* Darker shade on hover */
+    background-color: #161616; /* Darker shade on hover */
+    color: whitesmoke;
 }
 
 
