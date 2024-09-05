@@ -5,7 +5,10 @@ import Home from './pages/Home/Home';
 import DigitalMarketing from './pages/servicePage/DigitalMarketing/DigitalMarketing';
 import WebDevelopment from './pages/servicePage/webDevelopment/webDevelopment';
 import './App.css';
+import Footer from './components/Footer/Footer';
+
 function App() {
+
   return (
     <Router>
       <div>
@@ -15,6 +18,7 @@ function App() {
           <Route path="/webDevelopment" element={<WebDevelopment />} />
           <Route path="/digitalMarketing" element={<DigitalMarketing />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
