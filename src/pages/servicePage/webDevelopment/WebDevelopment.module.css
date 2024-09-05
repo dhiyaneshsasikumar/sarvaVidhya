@@ -215,7 +215,7 @@
 .section3 {
     padding: 80px 100px;
     display: flex;
-    
+
     justify-content: center;
     align-items: center;
     height: 500px;
@@ -346,7 +346,7 @@
 .gallery {
     display: flex;
     width: fit-content;
-    animation: scroll 100s linear infinite;
+    animation: scroll 10s linear infinite;
 }
 
 .gallery img {
@@ -363,7 +363,7 @@
     }
 
     100% {
-        transform: translateX(calc(-50% - 5px));
+        transform: translateX(-50%);
     }
 }
 

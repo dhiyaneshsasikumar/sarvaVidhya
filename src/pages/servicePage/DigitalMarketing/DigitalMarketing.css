@@ -19,11 +19,12 @@
     text-decoration: none;
     color: whitesmoke;
 }
-body{
+
+body {
     margin-top: 40px;
 }
 
-.DMcontainer{
+.DMcontainer {
     min-height: 100svh;
 }
 
@@ -40,7 +41,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+
 }
 
 .serviceHeader h2 {
@@ -178,9 +179,12 @@ body{
 } */
 
 .icon-container img {
-    width: 80%; /* Make the image take the full width of the container */
-    height: 80%; /* Make the image take the full height of the container */
-    object-fit: contain; /* Maintain aspect ratio and fit within the container */
+    width: 80%;
+    /* Make the image take the full width of the container */
+    height: 80%;
+    /* Make the image take the full height of the container */
+    object-fit: contain;
+    /* Maintain aspect ratio and fit within the container */
 }
 
 .service-description {
@@ -190,69 +194,82 @@ body{
 /* ------------------------------------------------------------------------------------------------- */
 
 .DMcontainer .section3Div {
-    /* background-image: url('images/bg.jpg');  */
-    background-image: linear-gradient(120deg, #c3daff 0%, #de6a0b 100%);
+    background-image: url('images/bg.jpg');
+
     background-size: cover;
     background-position: center;
-    padding: 4rem 0; /* Padding for the section */
-    color: #ffffff; /* Text color */
-  }
-  
-  .section3 {
+    padding: 4rem 0;
+    /* Padding for the section */
+    color: #ffffff;
+    /* Text color */
+}
+
+.section3 {
     width: 90%;
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Semi-transparent background for readability */
     padding: 2rem;
     border-radius: 0.5rem;
-  }
-  
-  .title {
+}
+
+.title {
     text-align: center;
     margin-bottom: 1.5rem;
-  }
-  
-  .title h3 {
+}
+
+.title h3 {
     font-size: 2rem;
     margin: 0;
-  }
-  
-  .title hr {
+}
+
+.title hr {
     width: 50%;
     margin: 0.5rem auto;
-    border: 1px solid #eab308; /* Gold color for the line */
-  }
-  
-  p {
-    font-size: 1.125rem; /* Slightly larger font size for readability */
-    line-height: 1.6; /* Improved line height for better text spacing */
-    margin-bottom: 2rem; /* Space below the paragraph */
-  }
-  
-  .icon-grid {
+    border: 1px solid #eab308;
+    /* Gold color for the line */
+}
+
+p {
+    font-size: 1.125rem;
+    /* Slightly larger font size for readability */
+    line-height: 1.6;
+    /* Improved line height for better text spacing */
+    margin-bottom: 2rem;
+    /* Space below the paragraph */
+}
+
+.icon-grid {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); /* Single column layout by default */
-    gap: 1.5rem; /* Space between icons */
-  }
-  
-  .icon-item {
-    text-align: center; /* Center align text under icons */
-    height: 30px;
-  }
-  
-  .icon-item img {
-    width: 100px; /* Set a fixed size for icons */
-    height: 50px; /* Maintain aspect ratio */
-    margin-bottom: 0.5rem; /* Space between icon and text */
-  }
-  
-  @media (min-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+    /* Single column layout by default */
+    gap: 1.5rem;
+    /* Space between icons */
+}
+
+.icon-item {
+    text-align: center;
+    /* Center align text under icons */
+}
+
+.icon-item img {
+    width: 80px;
+    /* Set a fixed size for icons */
+    height: 80px;
+    /* Maintain aspect ratio */
+    margin-bottom: 0.5rem;
+    /* Space between icon and text */
+}
+
+@media (min-width: 768px) {
     .icon-grid {
-      grid-template-columns: repeat(3, 1fr); /* Three columns layout on larger screens */
+        grid-template-columns: repeat(3, 1fr);
+        /* Three columns layout on larger screens */
     }
-  }
-  
+}
+
 /* ------------------------------------------------------------------------------------------------- */
 
 
@@ -260,85 +277,117 @@ body{
 /* External CSS file (styles.css) */
 
 .step-by-step-section {
-    padding: 40px 0; /* Padding for the section */
+    padding: 40px 0;
+    /* Padding for the section */
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
 .step-by-step-container {
     display: flex;
-    align-items: center; /* Center align items vertically */
-    justify-content: center; /* Center align items horizontally */
-    width: 80%; /* Set a width for the container */
-    margin: 0 auto; /* Center the container */
+    align-items: center;
+    /* Center align items vertically */
+    justify-content: center;
+    /* Center align items horizontally */
+    width: 80%;
+    /* Set a width for the container */
+    margin: 0 auto;
+    /* Center the container */
 }
 
 .emailhead {
     font-size: 2rem;
     margin: 0;
 }
+
 .step-by-step-image img {
-    width: 500px; /* Set a fixed width for the image */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Space between image and content */
-    border-radius: 10px; /* Optional: Add border radius for aesthetics */
+    width: 500px;
+    /* Set a fixed width for the image */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-right: 10px;
+    /* Space between image and content */
+    border-radius: 10px;
+    /* Optional: Add border radius for aesthetics */
 }
 
 .step-by-step-content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align items to the start */
+    align-items: flex-start;
+    /* Align items to the start */
 }
 
 .step-divider {
-    width: 70%; /* Full width for the divider */
+    width: 70%;
+    /* Full width for the divider */
     height: 1px;
     background-color: rgb(24, 24, 24);
     border: none;
-    margin: 10px 0; /* Space above and below the divider */
+    margin: 10px 0;
+    /* Space above and below the divider */
 }
 
 .step-button-container {
     display: flex;
-    width: 100%; /* Full width for the button container */
-    margin: 20px 0; /* Space above and below the buttons */
+    width: 100%;
+    /* Full width for the button container */
+    margin: 20px 0;
+    /* Space above and below the buttons */
 }
 
 .step-button {
-    flex: 1; /* Make buttons take equal width */
-    padding: 15px; /* Padding for button */
-    border: none; /* No border */
-    background-color: whitesmoke;/* Button color */
-    color: rgb(0, 0, 0); /* Text color */
-    font-size: 16px; /* Font size */
-    text-align: center; /* Center text */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-    
+    flex: 1;
+    /* Make buttons take equal width */
+    padding: 15px;
+    /* Padding for button */
+    border: none;
+    /* No border */
+    background-color: whitesmoke;
+    /* Button color */
+    color: rgb(0, 0, 0);
+    /* Text color */
+    font-size: 16px;
+    /* Font size */
+    text-align: center;
+    /* Center text */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s;
+    /* Smooth transition for hover effect */
+
 }
 
 .step-button:hover {
-    background-color: #0056b3; /* Darker shade on hover */
+    background-color: #0056b3;
+    /* Darker shade on hover */
 }
 
 
 /* Responsive Styles */
 @media (max-width: 768px) {
     .step-by-step-container {
-        flex-direction: column; /* Stack image and content on smaller screens */
-        align-items: center; /* Center align items */
+        flex-direction: column;
+        /* Stack image and content on smaller screens */
+        align-items: center;
+        /* Center align items */
     }
 
     .step-by-step-image img {
-        width: 100%; /* Make the image responsive */
-        max-width: 400px; /* Limit the maximum width on smaller screens */
-        margin-right: 0; /* Remove right margin */
-        margin-bottom: 20px; /* Add bottom margin */
+        width: 100%;
+        /* Make the image responsive */
+        max-width: 400px;
+        /* Limit the maximum width on smaller screens */
+        margin-right: 0;
+        /* Remove right margin */
+        margin-bottom: 20px;
+        /* Add bottom margin */
     }
 }
 
 @media (max-width: 480px) {
     .step-by-step-image img {
-        max-width: 300px; /* Further limit the maximum width for very small screens */
+        max-width: 300px;
+        /* Further limit the maximum width for very small screens */
     }
 }
 
@@ -398,39 +447,48 @@ body{
 }
 
 .expertise-icon-item img {
-    width: 100px; /* Set a fixed size for icons */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 1rem; /* Space between icon and text */
+    width: 100px;
+    /* Set a fixed size for icons */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-bottom: 1rem;
+    /* Space between icon and text */
 }
 
 /* Responsive Styles */
 @media (max-width: 1200px) {
     .expertise-icon-grid {
-        grid-template-columns: repeat(2, 1fr); /* Change to 2 columns on medium screens */
+        grid-template-columns: repeat(2, 1fr);
+        /* Change to 2 columns on medium screens */
     }
 }
 
 @media (max-width: 768px) {
     .expertise-icon-grid {
-        grid-template-columns: 1fr; /* Change to 1 column on small screens */
+        grid-template-columns: 1fr;
+        /* Change to 1 column on small screens */
     }
 
     .expertise-title h3 {
-        font-size: 1.75rem; /* Slightly smaller title on small screens */
+        font-size: 1.75rem;
+        /* Slightly smaller title on small screens */
     }
 
     .expertise-description {
-        font-size: 1rem; /* Smaller font size for description */
+        font-size: 1rem;
+        /* Smaller font size for description */
     }
 }
 
 @media (max-width: 480px) {
     .expertise-title h3 {
-        font-size: 1.5rem; /* Further reduce title size for very small screens */
+        font-size: 1.5rem;
+        /* Further reduce title size for very small screens */
     }
 
     .expertise-description {
-        font-size: 0.9rem; /* Further reduce description size */
+        font-size: 0.9rem;
+        /* Further reduce description size */
     }
 }
 

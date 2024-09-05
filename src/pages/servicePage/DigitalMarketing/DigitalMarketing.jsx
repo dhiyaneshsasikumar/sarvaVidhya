@@ -103,9 +103,9 @@ function DigitalMarketing() {
             <div className="expertise-icon-grid">
               {[{ src: 'linkedin (1).png', alt: 'SEO Icon' }, { src: 'instagram (1).png', alt: 'Content Creation Icon' }, { src: 'facebook.png', alt: 'Social Media Icon' }].map((icon, index) => (
                 <div className="expertise-icon-item" key={index}>
-                  
-                  
+
                   <img src={`images/${icon.src}`} alt={icon.alt} />
+
                 </div>
               ))}
             </div>
