@@ -332,7 +332,7 @@
 
 /* --------------------------------------------------------------- */
 /* Gallary */
-.gallery-container {
+.galleryContainer {
     padding: 50px;
     width: 80%;
     margin: 0px auto;
@@ -345,7 +345,7 @@
 .gallery {
     display: flex;
     width: fit-content;
-    animation: scroll 20s linear infinite;
+    animation: scroll 100s linear infinite;
 }
 
 .gallery img {

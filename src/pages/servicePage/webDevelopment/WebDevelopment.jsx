@@ -92,6 +92,24 @@ const WebDevelopment = () => {
                         <img src="carousel/ASHH5bDmsp6wnK6mEfZdcU-1200-80.jpg" alt="Image 3" />
                         <img src="carousel/Golden+Retrievers+dans+pet+care.jpeg" alt="Image 4" />
                         <img src="carousel/image.png" alt="Image 5" />
+                        <img src="carousel/1700486907837_tdy_news_8a_kreutz_mystery_dog_illness_231120_1920x1080-ggrpnf.webp"
+                            alt="Image 1" />
+                        <img src="carousel/201030094143-stock-rhodesian-ridgeback.jpg" alt="Image 2" />
+                        <img src="carousel/ASHH5bDmsp6wnK6mEfZdcU-1200-80.jpg" alt="Image 3" />
+                        <img src="carousel/Golden+Retrievers+dans+pet+care.jpeg" alt="Image 4" />
+                        <img src="carousel/image.png" alt="Image 5" />
+                        <img src="carousel/1700486907837_tdy_news_8a_kreutz_mystery_dog_illness_231120_1920x1080-ggrpnf.webp"
+                            alt="Image 1" />
+                        <img src="carousel/201030094143-stock-rhodesian-ridgeback.jpg" alt="Image 2" />
+                        <img src="carousel/ASHH5bDmsp6wnK6mEfZdcU-1200-80.jpg" alt="Image 3" />
+                        <img src="carousel/Golden+Retrievers+dans+pet+care.jpeg" alt="Image 4" />
+                        <img src="carousel/image.png" alt="Image 5" />
+                        <img src="carousel/1700486907837_tdy_news_8a_kreutz_mystery_dog_illness_231120_1920x1080-ggrpnf.webp"
+                            alt="Image 1" />
+                        <img src="carousel/201030094143-stock-rhodesian-ridgeback.jpg" alt="Image 2" />
+                        <img src="carousel/ASHH5bDmsp6wnK6mEfZdcU-1200-80.jpg" alt="Image 3" />
+                        <img src="carousel/Golden+Retrievers+dans+pet+care.jpeg" alt="Image 4" />
+                        <img src="carousel/image.png" alt="Image 5" />
                     </div>
                 </div>
             </div>
