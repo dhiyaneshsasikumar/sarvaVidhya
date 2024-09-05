@@ -1,0 +1,605 @@
+.mainDiv {
+    margin-top: 100px;
+}
+
+.customButton {
+    font-family: 'Montserrat', sans-serif;
+    padding: 16px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: transparent;
+    border: 2px solid rgb(24, 24, 24);
+    border-radius: 50px;
+    color: rgb(24, 24, 24);
+}
+
+.customButton:hover {
+    color: whitesmoke;
+    background-color: rgb(24, 24, 24);
+}
+
+
+.serviceHeader a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* Section 1 */
+
+.serviceHeader {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.serviceHeader h2 {
+    font-size: 11vmin;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.serviceHeader p {
+    width: 50%;
+    font-size: 3vmin;
+    text-align: center;
+}
+
+/* Buttons */
+
+.buttonSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 40px auto;
+}
+
+.buttonSection button {
+    font-family: 'Montserrat', sans-serif;
+    padding: 16px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.buttonSection .btn1 {
+    background-color: transparent;
+    border: 2px solid rgb(24, 24, 24);
+    border-radius: 50px;
+
+}
+
+.buttonSection .btn1:hover {
+    color: whitesmoke;
+    background-color: rgb(24, 24, 24);
+}
+
+
+
+.buttonSection .btn2 {
+    background-color: rgb(24, 24, 24);
+    border: 2px solid rgb(24, 24, 24);
+    color: whitesmoke;
+    border-radius: 50px;
+
+}
+
+.buttonSection .btn2:hover {
+    color: rgb(24, 24, 24);
+    background-color: transparent
+}
+
+.buttonSection .btn2:hover a {
+    color: rgb(24, 24, 24);
+}
+
+
+
+/* Marquee */
+.marquee {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 80px;
+    font-size: 3rem;
+    overflow-x: hidden;
+}
+
+.track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 32s linear infinite;
+}
+
+
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/* Section 2 */
+
+.section2 {
+    /* font-family: 'Montserrat', sans-serif; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 80px 100px;
+    background-color: rgb(229, 243, 255);
+    gap: 30px;
+}
+
+.section2 h2 {
+    font-size: 7vmin;
+}
+
+.section2 p {
+    font-size: 3vmin;
+}
+
+
+.responsive-grid {
+    display: grid;
+    width: 100%;
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.responsive-grid .grid {
+    padding: 24px;
+    border-radius: 16px;
+    background-color: rgb(243, 250, 255);
+    border: 1px solid rgb(193, 226, 255);
+    width: 100%;
+    height: fit-content;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.responsive-grid .grid .gridText {
+
+    display: flex;
+    height: 110px;
+    justify-content: space-between;
+    align-items: start;
+    /* gap: 15px; */
+    flex-direction: column;
+}
+
+.responsive-grid .grid .gridText p {
+    font-size: medium;
+}
+
+.responsive-grid .grid img {
+    height: 100px;
+}
+
+.responsive-grid .grid h3 {
+    font-size: 4vmin;
+}
+
+@media (min-width: 768px) {
+
+    .responsive-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* ------------------------------------------------------------------------------------------------- */
+
+
+/* Section 3 */
+.section3Div {
+    background-image: linear-gradient(120deg, #c3daff 0%, #c2e9fb 100%);
+}
+
+.section3 {
+    padding: 80px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.section3 img {
+    height: 400px;
+    margin: 80px;
+}
+
+.section3 .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: fit-content;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.section3 .title {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section3 h3 {
+    font-weight: 600;
+    font-size: 4vmin;
+}
+
+.section3 hr {
+    width: 300px;
+    height: 1px;
+    background-color: rgb(24, 24, 24);
+    border: none;
+}
+
+.section3 p {
+    font-size: large;
+}
+
+.section3 button {
+    /* margin: 40px 0; */
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .section3 {
+        padding: 60px 50px;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .section3 img {
+        height: 300px;
+        margin: 40px 0;
+    }
+
+    .section3 .right {
+        align-items: center;
+    }
+
+    .section3 h3 {
+        font-size: 5vmin;
+    }
+
+    .section3 hr {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .section3 {
+        padding: 40px 20px;
+    }
+
+    .section3 img {
+        height: 250px;
+    }
+
+    .section3 h3 {
+        font-size: 6vmin;
+    }
+
+    .section3 p {
+        font-size: medium;
+    }
+
+    .section3 button {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .section3 {
+        padding: 20px 10px;
+    }
+
+    .section3 img {
+        height: 200px;
+    }
+
+    .section3 h3 {
+        font-size: 7vmin;
+    }
+
+    .section3 p {
+        font-size: large;
+    }
+
+    .section3 hr {
+        width: 100%;
+    }
+}
+
+/* --------------------------------------------------------------- */
+/* Gallary */
+.gallery-container {
+    padding: 50px;
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.gallery {
+    display: flex;
+    width: fit-content;
+    animation: scroll 20s linear infinite;
+}
+
+.gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 16px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-50% - 5px));
+    }
+}
+
+
+/* -------------------------------------------------------------- */
+
+
+.section4 {
+    padding: 0px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(120deg, #dbe9ff 0%, #effaff 100%);
+    height: 100%;
+}
+
+.section4 img {
+    height: 400px;
+    margin: 80px;
+}
+
+.section4 .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 100%;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.section4 .title {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section4 h3 {
+    font-weight: 600;
+    font-size: 4vmin;
+}
+
+.section4 hr {
+    width: 300px;
+    height: 1px;
+    background-color: rgb(24, 24, 24);
+    border: none;
+}
+
+.section4 p {
+    font-size: large;
+}
+
+
+/* Glassmorphism Effect for Text Side */
+.glass-effect {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .section4 {
+        padding: 60px 50px;
+        flex-direction: column-reverse;
+        /* Stack elements vertically on smaller screens */
+        height: auto;
+        /* Allow height to adjust based on content */
+    }
+
+    .section4 img {
+        height: 300px;
+        /* Reduce image height */
+        margin: 40px 0;
+        /* Adjust margins */
+    }
+
+    .section4 .left {
+        align-items: center;
+        /* Center align text on smaller screens */
+    }
+
+    .section4 h3 {
+        font-size: 5vmin;
+        /* Increase font size for better readability */
+    }
+
+    .section4 hr {
+        width: 80%;
+        /* Make the line responsive */
+    }
+}
+
+@media (max-width: 768px) {
+    .section4 {
+        padding: 40px 20px;
+        /* Further reduce padding */
+    }
+
+    .section4 img {
+        height: 250px;
+        /* Further reduce image height */
+    }
+
+    .section4 h3 {
+        font-size: 6vmin;
+        /* Adjust font size for smaller screens */
+    }
+
+    .section4 p {
+        font-size: large;
+        /* Adjust paragraph font size */
+    }
+
+    .section4 button {
+        margin: 20px 0;
+        /* Adjust button margin */
+    }
+}
+
+@media (max-width: 480px) {
+    .section4 {
+        padding: 20px 25px;
+        /* Minimal padding for mobile */
+    }
+
+    .section4 img {
+        height: 200px;
+        /* Further reduce image height */
+    }
+
+    .section4 h3 {
+        font-size: 7vmin;
+        /* Adjust font size for mobile */
+    }
+
+    .section4 p {
+        font-size: large;
+        /* Further adjust paragraph font size */
+    }
+
+    .section4 hr {
+        width: 100%;
+        /* Full width for the line */
+    }
+}
+
+
+
+
+/* -------------------------------------------------------------- */
+
+@media only screen and (max-width:850px) {
+
+    .marquee {
+        height: 40px;
+        font-size: 2rem;
+    }
+
+    .serviceHeader h2 {
+        font-size: 8vmin;
+    }
+
+    .serviceHeader p {
+        font-size: medium;
+        width: 90%;
+    }
+
+    .buttonSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin: 10px auto;
+    }
+
+
+    /* Mob Section 2 */
+    .section2 {
+        padding: 20px;
+    }
+
+    .section2 h2 {
+        font-size: 8vmin;
+    }
+
+    .section2 p {
+        font-size: medium;
+    }
+
+    .responsive-grid .grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+    }
+
+    .responsive-grid .grid img {
+        height: 60px;
+    }
+
+    .responsive-grid .grid .gridText {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .responsive-grid .grid .gridText p {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+
+
+    /* Mob Section 3 */
+    .section3 {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .section3 img {
+        height: 150px;
+    }
+
+    .section3 .section3Div {
+        width: 90%;
+    }
+
+    .section3 .section3BtnDiv {
+        flex-direction: column;
+        padding: 0;
+    }
+
+}
