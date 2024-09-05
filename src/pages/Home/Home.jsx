@@ -313,7 +313,6 @@ const Home = () => {
           <div className="supportive-reasons">
             <div class="supportive-reason">
               <div class="supportive-icon">
-                {/* <i class="fa fa-headphones"></i> */}
                 <FaHeadphones />
               </div>
               <div class="supportive-text-content">
@@ -324,7 +323,6 @@ const Home = () => {
             </div>
             <div class="supportive-reason">
               <div class="supportive-icon">
-                {/* <i class="fa fa-heart"></i> */}
                 <FaHandHoldingHeart />
               </div>
               <div class="supportive-text-content">
