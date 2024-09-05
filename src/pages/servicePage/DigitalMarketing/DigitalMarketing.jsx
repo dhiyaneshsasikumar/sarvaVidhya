@@ -1,8 +1,10 @@
 import React from 'react'
-
+import './DigitalMarketing.css'
 const DigitalMarketing = () => {
   return (
-    <div>DigitalMarketing</div>
+    <div className="DigitalMarketing">
+      DigitalMarketing
+    </div>
   )
 }
 

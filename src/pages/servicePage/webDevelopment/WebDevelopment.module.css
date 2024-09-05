@@ -154,14 +154,14 @@
 }
 
 
-.responsive-grid {
+.responsivegrid {
     display: grid;
     width: 100%;
     gap: 20px;
     grid-template-columns: repeat(1, 1fr);
 }
 
-.responsive-grid .grid {
+.responsivegrid .grid {
     padding: 24px;
     border-radius: 16px;
     background-color: rgb(243, 250, 255);
@@ -174,7 +174,7 @@
     align-items: center;
 }
 
-.responsive-grid .grid .gridText {
+.responsivegrid .grid .gridText {
 
     display: flex;
     height: 110px;
@@ -184,21 +184,21 @@
     flex-direction: column;
 }
 
-.responsive-grid .grid .gridText p {
+.responsivegrid .grid .gridText p {
     font-size: medium;
 }
 
-.responsive-grid .grid img {
+.responsivegrid .grid img {
     height: 100px;
 }
 
-.responsive-grid .grid h3 {
+.responsivegrid .grid h3 {
     font-size: 4vmin;
 }
 
 @media (min-width: 768px) {
 
-    .responsive-grid {
+    .responsivegrid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -556,7 +556,7 @@
         font-size: medium;
     }
 
-    .responsive-grid .grid {
+    .responsivegrid .grid {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -564,11 +564,11 @@
         height: 200px;
     }
 
-    .responsive-grid .grid img {
+    .responsivegrid .grid img {
         height: 60px;
     }
 
-    .responsive-grid .grid .gridText {
+    .responsivegrid .grid .gridText {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -576,7 +576,7 @@
         flex-direction: column;
     }
 
-    .responsive-grid .grid .gridText p {
+    .responsivegrid .grid .gridText p {
         text-align: center;
         font-size: 0.8rem;
     }
