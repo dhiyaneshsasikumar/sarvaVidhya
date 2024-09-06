@@ -259,7 +259,7 @@ const Home = () => {
       <section className="clients-section">
         <div className="clients-container">
           <div className="clients-info">
-            <h2 className="clients-heading">
+            <h2 className="home-clients-heading">
               We Help Brands Increase Their Online Presence
             </h2>
             <hr />
@@ -301,7 +301,7 @@ const Home = () => {
       {/* Supportive Section */}
       <section className="supportive-section">
         <div className="supportive-content">
-          <div className="supportive-text">
+          <div className="home-supportive-text">
             <h1>Why People Love Us</h1>
             <p>
               At Sarva Vidhya, it’s all about growing together. We’re a startup that prioritizes the growth of our
