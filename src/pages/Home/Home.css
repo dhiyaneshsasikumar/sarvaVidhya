@@ -177,7 +177,8 @@ body {
     .hero-wrapper {
         flex-direction: column;
         align-items: center;
-        margin: 20px;
+        margin: 10px;
+        margin-top: -100px;
     }
 
     .hero-description,
@@ -211,6 +212,7 @@ body {
 
     .hero-description h1 {
         font-size: 1.5rem;
+        margin-top: 0;
     }
 
     .hero-description p {
@@ -300,16 +302,36 @@ body {
     }
 }
 
+@media screen and (max-width: 480px) {
+    .icon-slider-container {
+        display: flex;
+        flex-direction: column;
+        padding: 12px 0;
+        font-family: 'Montserrat', sans-serif;
+        background-size: cover;
+    }
+
+    .icon-slider {
+        height: 100px;
+        overflow: hidden;
+        position: relative;
+        padding-top: 10px;
+    }
+
+    .icon-slide img {
+        height: 60%;
+        width: 20%;
+    }
+}
+
 /* ------------------------Service Section------------------------ */
 .service-section {
-    /* background-image: linear-gradient(120deg, #ffffff 0%, #ffffff 100%); */
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
     background-size: cover;
     padding: 20px;
 }
 
 .service-header {
-    position: relative;
     max-width: 700px;
     margin: 0 auto;
     padding-top: 10px;
@@ -320,8 +342,6 @@ body {
     font-size: 2.2rem;
     text-transform: uppercase;
     text-align: center;
-    position: relative;
-
 }
 
 .service-header p {
@@ -334,7 +354,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 20vh;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
 }
@@ -349,7 +368,6 @@ body {
 .card {
     position: relative;
     height: 250px;
-    width: 100%;
     max-width: 350px;
     border-radius: 15px;
     transition: transform 500ms ease-out;
@@ -370,14 +388,14 @@ body {
 .card-description {
     line-height: 1.2;
     color: #333;
-    padding: 0 10px;
-    font-size: 18px;
+    padding-bottom: 1.5rem;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .card-link {
     display: inline-block;
     border: 1px solid black;
-    margin: 20px;
     padding: 12px 30px;
     text-decoration: none;
     font-size: 16px;
@@ -412,20 +430,40 @@ body {
     left: 140%;
 }
 
-/* Responsive Design Adjustments */
+/* ---------------------- Responsive Design ---------------------- */
+
 @media (max-width: 1200px) {
     .cards-wrapper {
         grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+
+    .card {
+        height: 220px;
     }
 }
 
 @media (max-width: 768px) {
     .cards-wrapper {
         grid-template-columns: 1fr;
+        grid-gap: 20px;
     }
 
     .card {
         height: 200px;
+    }
+
+    .card-title {
+        font-size: 22px;
+    }
+
+    .card-description {
+        font-size: 16px;
+    }
+
+    .card-link {
+        padding: 10px 25px;
+        font-size: 14px;
     }
 }
 
@@ -436,8 +474,7 @@ body {
     }
 
     .card {
-        height: 200px;
-
+        height: 180px;
     }
 
     .card-title {
@@ -449,7 +486,7 @@ body {
     }
 
     .card-link {
-        padding: 10px 20px;
+        padding: 8px 20px;
         font-size: 14px;
     }
 }
@@ -490,9 +527,9 @@ body {
     font-weight: bold;
 }
 
-p {
+.counter-p {
     margin: 10px 0 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -509,11 +546,11 @@ p {
     }
 
     .counter {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
-    p {
-        font-size: 1rem;
+    .counter-p {
+        font-size: 0.9rem;
     }
 }
 
@@ -748,8 +785,8 @@ p {
     width: 50px;
     height: 50px;
     margin-right: 20px;
-    margin-top: 20px;
-    font-size: 1.7rem;
+    margin-top: 16px;
+    font-size: 1.4rem;
 }
 
 .home-supportive-text-content {
@@ -819,6 +856,7 @@ p {
         line-height: 1.5;
         color: #5a5a5a;
     }
+
     .home-supportive-text h1 {
         font-size: 1.3em;
         color: #2a2a2a;
@@ -839,7 +877,7 @@ p {
 .consultation-container {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 2px;
     border-radius: 8px;
     width: 90%;
     justify-content: space-between;
@@ -852,7 +890,7 @@ p {
 }
 
 .consultation-info h1 {
-    font-size: 30px;
+    font-size: 20px;
     color: #1c3328;
     margin-bottom: 20px;
 }
@@ -902,6 +940,7 @@ form {
 label {
     margin-bottom: 5px;
     color: #333;
+    font-size: 1.2rem;
 }
 
 input,
@@ -925,15 +964,14 @@ textarea {
     cursor: pointer;
     border-radius: 4px;
     width: 100px;
-    font-size: larger;
+    font-size: 1rem;
     font-weight: 500;
 }
 
 button:hover {
     background-color: #7ba5e9;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
-
-/* ------------------------ Responsive Design ------------------------ */
 
 @media (min-width: 768px) {
     .consultation-container {
@@ -947,7 +985,7 @@ button:hover {
     }
 
     .consultation-info h1 {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .consultation-info h2 {
@@ -962,11 +1000,11 @@ button:hover {
 
     .consultation-info h1,
     .consultation-info h2 {
-        font-size: 18px;
+        font-size: 24px;
     }
 
     .consultation-info p {
-        font-size: 12px;
+        font-size: 1rem;
     }
 
     .consultation-btn {

@@ -193,30 +193,30 @@ const Home = () => {
           <div className="cards-wrapper">
             <div className="card">
               <h2 className="card-title">Web Design</h2>
-              <p className="card-description">
+              <h6 className="card-description">
                 Boost your online presence and connect with more people using
                 our smart digital marketing strategies.
-              </p>
+              </h6>
               <a href="#" className="card-link">
                 Learn More <i className="fa-solid fa-arrow-right"></i>
               </a>
             </div>
             <div className="card">
               <h2 className="card-title">Web Design</h2>
-              <p className="card-description">
+              <h6 className="card-description">
                 Boost your online presence and connect with more people using
                 our smart digital marketing strategies.
-              </p>
+              </h6>
               <a href="#" className="card-link">
                 Learn More <i className="fa-solid fa-arrow-right"></i>
               </a>
             </div>
             <div className="card">
               <h2 className="card-title">Web Design</h2>
-              <p className="card-description">
+              <h6 className="card-description">
                 Boost your online presence and connect with more people using
                 our smart digital marketing strategies.
-              </p>
+              </h6>
               <a href="#" className="card-link">
                 Learn More <i className="fa-solid fa-arrow-right"></i>
               </a>
@@ -231,19 +231,19 @@ const Home = () => {
         <div className="container-counter">
           <div className="counter-box design1">
             <div className="counter" data-target="100">0+</div>
-            <p>Projects Done</p>
+            <p className="counter-p">Projects Done</p>
           </div>
           <div className="counter-box design2">
             <div className="counter" data-target="150">0+</div>
-            <p>Happy Clients</p>
+            <p className="counter-p">Happy Clients</p>
           </div>
           <div className="counter-box design3">
             <div className="counter" data-target="200">0+</div>
-            <p>Awards Won</p>
+            <p className="counter-p">Awards Won</p>
           </div>
           <div className="counter-box design4">
             <div className="counter" data-target="250">0+</div>
-            <p>Cups of Coffee</p>
+            <p className="counter-p">Cups of Coffee</p>
           </div>
         </div>
       </section>
